@@ -1,0 +1,185 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@company.com",
+      "password": "admin@123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Neha Verma",
+      "email": "neha.verma@company.com",
+      "password": "Neha@123",
+      "role": "employee"
+    },
+    {
+      "id": "3",
+      "name": "Amit Patel",
+      "email": "amit.patel@company.com",
+      "password": "Amit@123",
+      "role": "employee"
+    },
+    {
+      "id": "4",
+      "name": "Sneha Iyer",
+      "email": "sneha.iyer@company.com",
+      "password": "Sneha@123",
+      "role": "employee"
+    },
+    {
+      "id": "5",
+      "name": "Rajesh Gupta",
+      "email": "rajesh.gupta@company.com",
+      "password": "Rajesh@123",
+      "role": "employee"
+    },
+    {
+      "id": "6",
+      "name": "William",
+      "email": "william@company.com",
+      "password": "william@123",
+      "role": "employee"
+    },
+    {
+      "id": "fab0",
+      "name": "Mike",
+      "email": "mike@gmail.com",
+      "password": "mike123",
+      "role": "employee"
+    }
+  ],
+  "scrums": [
+    {
+      "id": "101",
+      "name": "E-Commerce Platform Development"
+    },
+    {
+      "id": "102",
+      "name": "HR Management System"
+    },
+    {
+      "id": "103",
+      "name": "AI Chatbot Integration"
+    },
+    {
+      "id": "104",
+      "name": "Mobile Banking Application"
+    },
+    {
+      "id": "105",
+      "name": "Cloud Migration Project"
+    },
+    {
+      "id": "02cc",
+      "name": "ToDo App Dev"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "201",
+      "title": "Design Login & Signup UI",
+      "description": "Create responsive login and signup pages using React and Tailwind.",
+      "status": "Done",
+      "scrumId": "101",
+      "assignedTo": "2",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-01"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-08-10"
+        },
+        {
+          "status": "Done",
+          "date": "2024-08-15"
+        }
+      ]
+    },
+    {
+      "id": "202",
+      "title": "Integrate Payment Gateway",
+      "description": "Implement Razorpay and Stripe APIs for secure payments.",
+      "status": "In Progress",
+      "scrumId": "101",
+      "assignedTo": "3",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-05"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-07-10"
+        }
+      ]
+    },
+    {
+      "id": "203",
+      "title": "Create Employee Leave Module",
+      "description": "Develop backend APIs for leave application and approvals.",
+      "status": "In Progress",
+      "scrumId": "102",
+      "assignedTo": "4",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-08-20"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-08-25"
+        }
+      ]
+    },
+    {
+      "id": "204",
+      "title": "Train AI Model for Customer Queries",
+      "description": "Use NLP techniques to enhance chatbot responses.",
+      "status": "To Do",
+      "scrumId": "103",
+      "assignedTo": "5",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-09-01"
+        }
+      ]
+    },
+    {
+      "id": "205",
+      "title": "Migrate Database to AWS RDS",
+      "description": "Transfer MySQL database to AWS RDS and optimize performance.",
+      "status": "To Do",
+      "scrumId": "105",
+      "assignedTo": "6",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-20"
+        }
+      ]
+    },
+    {
+      "id": "6fd3",
+      "title": "Include tasks ",
+      "description": "make it user friendly",
+      "status": "In Progress",
+      "scrumId": "02cc",
+      "assignedTo": "6",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-20"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-20"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+.dashboard-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.add-scrum-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.add-scrum-btn:hover {
+    background: #0056b3;
+}
+
+.scrum-form {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 40%;
+}
+
+.scrum-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.scrum-form input,
+.scrum-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background: #218838;
+}
+
+.scrum-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.scrum-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+.details-btn {
+    background: #17a2b8;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.details-btn:hover {
+    background: #138496;
+}
